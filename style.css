@@ -13,7 +13,7 @@ section.hero-section .half-itm-part {
 section .half-itm-part#first-half-part {
   padding: 115px 115px 15px 145px;
 }
-section .half-itm-part h1 {
+section.hero-section .half-itm-part h1 {
   font-family: "Yeseva One", cursive;
   font-weight: 400;
   font-size: 60px;
@@ -42,7 +42,7 @@ section .half-itm-part p.scroll-txt {
 .margin-class {
   margin-bottom: 30px;
 }
-section.hero-section .half-itm-part img {
+section .half-itm-part img {
   width: 80%;
 }
 a.btn-design {
@@ -56,41 +56,50 @@ a.btn-design {
 }
 /* Hero section area end*/
 /* My mission area  */
-section.my-mission {
+section.my-mission,
+.special-section {
   padding: 0px 140px 25px 140px;
 }
-section.my-mission h1 {
+section.my-mission h1,
+.special-section h1 {
   text-align: center;
   font-weight: 700;
   font-size: 48px;
   color: #13103a;
 }
-section.my-mission h1 span {
+section.my-mission h1 span,
+.special-section h1 span {
   color: #ffad5a;
 }
-section.my-mission .mission-content-box .mission-itm h2 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #000;
-}
-section.my-mission .mission-content-box .mission-itm p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #424242;
-}
-
-section.my-mission .mission-content-box {
+section.my-mission .mission-content-box,
+.sp-sec-content-box {
   display: flex;
 }
-section.my-mission .mission-content-box img {
-  width: 40%;
-}
-section.my-mission .mission-content-box .mission-itm {
+section.my-mission .mission-content-box .mission-itm,
+.special-section .sp-sec-content-box .road-itm {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 15px;
   border-radius: 20px;
 }
+section.my-mission .mission-content-box .mission-itm h2,
+.special-section .sp-sec-content-box .road-itm h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+section.my-mission .mission-content-box .mission-itm p,
+.special-section .sp-sec-content-box .road-itm p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #424242;
+}
+
+section.my-mission .mission-content-box img,
+.special-section .sp-sec-content-box img {
+  width: 40%;
+}
+
 section.my-mission .mission-content-box .itm-one {
   background-color: #edf5f6;
   margin-right: 25px;
@@ -102,3 +111,87 @@ section.my-mission .mission-content-box .itm-two {
 section.my-mission .mission-content-box .itm-three {
   background-color: #fff4d6;
 }
+/* My mission area end */
+/*  Delevop faeture area and Project show area code start*/
+section.coding-section,
+.project-show {
+  display: flex;
+  background-image: url("mission-2022-main/images/shapes/shape-1.png");
+  background-size: 16%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+section.coding-section h1,
+.project-show h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #333333;
+  padding-right: 52%;
+}
+section.coding-section,
+.project-show {
+  padding: 60px 140px 60px 140px;
+}
+section .half-itm-part img.width-increase {
+  width: 95%;
+}
+section .half-itm-part p.pd-btm {
+  padding-bottom: 15px;
+}
+
+section#shape-position {
+  background-position: right bottom;
+}
+section.project-show .half-itm-part h1.pd-right {
+  padding-right: 37% !important; /* getting this info from google */
+}
+section.project-show .line-height h1 {
+  line-height: 20px; /* getting this info from google */
+}
+.padding-top {
+  /*extra class, create for design */
+  padding-top: 44px;
+}
+/* Delevop faeture area and Project show area code end*/
+/* special section by me start : Mission Road  */
+section.pad-bottom {
+  padding-bottom: 100px;
+}
+section#sp-sec-img {
+  background-image: url("mission-2022-main/images/shapes/shape-9.png");
+  background-repeat: no-repeat;
+}
+section.special-section .sp-sec-content-box .road-itm.road-itm2 {
+  padding-top: 157px !important;
+}
+section.special-section .sp-sec-content-box .road-itm.road-itm3 {
+  padding-top: 260px !important;
+}
+/* special section by me end : Mission Road */
+/* Fotter area code  */
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+footer h1 {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+}
+footer h1 span {
+  color: #ff5959;
+}
+footer p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #d9dbe1;
+  line-height: 8px;
+}
+footer p span {
+  color: #1878aa;
+}
+/* Fotter area code  */
